@@ -1,0 +1,44 @@
+body {background: pink;}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 40%;
+    background: #ccc;
+    margin: 0 auto;
+}
+.container h1 {
+    text-align: center;
+    font-family: Roboto;
+}
+.container .chat-window {
+    padding: 5px;
+}
+
+.chat-window div .chats {
+    background: #333;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.chat-window div .chats.user {
+    background: #333;
+    color: white;
+    border-radius: 20px;
+    margin: 0  0 0 auto;
+}
+.chat-window div {
+    padding: 5px 0;
+}
+.chat-window div .chats.user {
+    background: darkblue;
+    color: white;
+    border-radius: 20px;
+}
+
+
+

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>AI ChatBot</h1>
+        <div class="chat-window">
+            {% for chat in chats: %}
+            <div>
+                <div class="chats {{chat['id']}}">{{chat['id']}}: {{chat['msg']}}</div>
+            </div>
+            {% endfor %}
+        </div>
+        <form action="/" method="POST">
+            <input type="text" name="msg" id="msg">
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</body>
+</html>

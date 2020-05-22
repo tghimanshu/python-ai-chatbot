@@ -1,0 +1,3 @@
+signals of 8085 - 1Q compulsory
+
+Trap is the only non maskable input
