@@ -32,23 +32,4 @@ A python based Chatbot which provides uses AI to respond to chats
   ```
   pip install -r requirements.txt
   ```
-
-### Executing program
-
-- run the project
-
-  ```
-  python server.py
-  ```
-
-## Current Progress
-
-created the base functioning.
-
-## Screenshots
-
-![Screenshot 1](screenshots/screenshot.png)
-
-![Screenshot 1](screenshots/screenshot_2.png)
-
-![Screenshot 1](screenshots/screenshot_3.png)
+  
